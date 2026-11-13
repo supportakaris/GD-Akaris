@@ -1,0 +1,21 @@
+{
+  "name": "akaris-contacto",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
